@@ -23,8 +23,7 @@ function Home() {
               <h1 className="heading-name">
                 I am
                 <strong className="main-name">
-                  {" "}
-                  Gabriel De Freitas Carvalho{" "}
+                  Gabriel De Freitas Carvalho
                 </strong>
               </h1>
 
