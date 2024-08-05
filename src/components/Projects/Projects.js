@@ -12,10 +12,10 @@ import onavax from "../../Assets/Projects/onavax_img.png";
 import pgbg from "../../Assets/Projects/pgbg_img.png";
 import piprotocol from "../../Assets/Projects/piprotocol_img.png";
 import radiologex from "../../Assets/Projects/radiologex.jpeg";
-import troopers3 from "../../Assets/Projects/troopers3.png";
-import nekotoshi from "../../Assets/Projects/nekotoshi_img.png";
-import synquote from "../../Assets/Projects/synquote1.png";
-import defimagic from "../../Assets/Projects/defimagic_img.png";
+// import troopers3 from "../../Assets/Projects/troopers3.png";
+// import nekotoshi from "../../Assets/Projects/nekotoshi_img.png";
+// import synquote from "../../Assets/Projects/synquote1.png";
+// import defimagic from "../../Assets/Projects/defimagic_img.png";
 
 function Projects() {
   return (
