@@ -18,16 +18,12 @@ import {
   DiAws,
 } from "react-icons/di";
 import {
-  SiPytorch,
-  SiFirebase,
   SiNextdotjs,
   SiVuedotjs,
   SiAngular,
-  SiSolid,
   SiSolidity,
   SiEthereum,
   SiBinance,
-  SiAvajs,
   SiBitcoin,
   SiTailwindcss,
 } from "react-icons/si";
