@@ -1,0 +1,23 @@
+{
+  "NAME": "Gabriel de Freitas Carvalho",
+  "firstName": "Gabriel",
+  "lastName": "Carvalho",
+  "mySkills": [
+    "Senior Fullstack Developer",
+    "Mobile Developer",
+    "AI Expert",
+    "Solidity Developer",
+    "Web3 Developer"
+  ],
+  "linkedin": "https://www.linkedin.com/in/gabriel-freitas-1b4711309/",
+  "email": "teal.ademam.ky5g9@gmail.com",
+  "address": "Brasilia, Federal District Brazil",
+  "phoneNumber": "+55 (61) 8237-3407",
+  "education": {
+    "university": "Singapore University of Technology and Design",
+    "degree": "Bachelor degree in computer science"
+  },
+  "SKILL": [
+    ""
+  ]
+}

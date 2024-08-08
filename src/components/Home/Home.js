@@ -4,6 +4,7 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import String from "../../Assets/string.json";
 
 function Home() {
   return (
@@ -21,10 +22,7 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                I am{" "}
-                <strong className="main-name">
-                  Gabriel De Freitas Carvalho
-                </strong>
+                I am <strong className="main-name">{String.NAME}</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>

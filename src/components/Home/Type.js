@@ -1,17 +1,12 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
+import String from "../../Assets/string.json";
 
 function Type() {
   return (
     <Typewriter
       options={{
-        strings: [
-          "Senior Fullstack Developer",
-          "Mobile Developer",
-          "AI Expert",
-          "Solidity Developer",
-          "Web3 Developer",
-        ],
+        strings: String.mySkills,
         autoStart: true,
         loop: true,
         deleteSpeed: 50,

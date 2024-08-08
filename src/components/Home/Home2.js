@@ -6,6 +6,7 @@ import { AiFillSkype, AiFillMail } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiDiscord } from "react-icons/si";
 import "./Home.css";
+import String from "../../Assets/string.json";
 
 function Home2() {
   return (
@@ -27,16 +28,18 @@ function Home2() {
               stake, reward and NFT game contracts with Solidity on the EVM such
               as Ethereum, Polygon, Avalanche, and BSC network. Looking forward
               to a great chance with the clients for a long term.*/}
-              Szymon is a <strong>full-stack developer (Web, Mobile)</strong>{" "}
-              who creates and maintains from small-project to large-one{" "}
+              {String.firstName} is a{" "}
+              <strong>full-stack developer (Web, Mobile)</strong> who creates
+              and maintains from small-project to large-one{" "}
               <strong>from scratch</strong> and is familiar with{" "}
               <strong>AI</strong>. Has ability to develop front-end and back-end
               by himself and to have second nature of programmable mathematical
               modeling of object so that he makes a lot of extensibility classes
-              in anytime, any project. He possesses a technology of clouding
-              computer, is also an excellent driver of web service maintenance.
-              Szymon wraps up any businesses clearly and accurately and{" "}
-              <strong>collaborates with all development teams</strong> in
+              in anytime, any project. He possesses a technology of{" "}
+              <strong>clouding computer</strong>, is also an excellent driver of
+              web service maintenance.
+              {String.firstName} wraps up any businesses clearly and accurately
+              and <strong>collaborates with all development teams</strong> in
               perfect. He can interview web developers to round up ones so that
               only makes the good productions, gives people a plenty of{" "}
               <strong>good feelings</strong>. Some people are envious of keeping
@@ -72,7 +75,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/yoni-ad-70b087255/"
+                  href={String.linkedin}
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -92,7 +95,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="@mail::yoniad83@gmail.com"
+                  href={`mailto:${String.email}?subject=Develop Together&body=Hi, I'd like to connect with you.`}
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
