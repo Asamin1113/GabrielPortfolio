@@ -3,8 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import String from "../Assets/string.json";
 
 function Footer() {
-  // let date = new Date();
-  // let year = date.getFullYear();
   return (
     <Container fluid className="footer">
       <Row>
