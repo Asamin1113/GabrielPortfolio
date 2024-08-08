@@ -11,6 +11,8 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple"> {String.NAME} </span>
             from <span className="purple"> {String.address}</span>
+            <br /> I graduated from {String.education.university} and had a{" "}
+            {String.education.degree}.
             <br />I am a Self-Motivated, Problem-Solving, Trustable, and
             Passionate Developer.
             <br />
